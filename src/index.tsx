@@ -1,5 +1,6 @@
 import React  from 'react';
 import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import Apps from './App';
 
 const rootId = 'root';
@@ -9,7 +10,6 @@ if (!rootElement) {
   throw new Error(`Unable to find element with id '${rootId}'`);
 }
 
-ReactDOM.render(
-  <Apps />,
-  rootElement
-);
+const root=createRoot(rootElement)
+
+root.render(<Apps />)

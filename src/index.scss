@@ -1,0 +1,15 @@
+.wise-dialogue-hub-app {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+.wise-dialogue-hub-app-aside{
+  width: 250px;
+  background-color: #ddd;
+  padding: 20px;
+}
+.wise-dialogue-hub-app-main-content{
+  flex: 1;
+  padding: 20px;
+}
